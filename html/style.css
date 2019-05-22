@@ -1,0 +1,24 @@
+body{
+    background: #ddd;
+    width: 1000px;
+    max-width: calc(100vw - 60px);
+    margin: 30px auto;
+}
+.app-container{
+    background: #fff;
+    border-radius: 8px;
+    padding-top: 15px;
+    min-height: calc(100vh - 60px);
+}
+.todo-items-row {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    background-color: #eee;
+    transition: all 0.25s;
+}
+.todo-items-row:hover {
+    background-color: #ddd;
+}
